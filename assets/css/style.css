@@ -2,27 +2,12 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-    font-size: 50px;
-    text-align: center;
-    color: rgb(16, 16, 193);
+ol {
+    list-style: upper-alpha;
+    }
+
+ul {
+    list-style: url(../images/icons8-html-24.png);
 }
 
-p {
-    font-size: 15px;
-    font-weight: 500;
-    font-style: oblique;
-
-    text-align: center;
-    /* text-decoration: underline; */
-    text-transform: capitalize;
-
-    /* 
-    word-spacing: 10px;
-    letter-spacing: 5px; 
-    */
-
-    line-height: 28px;
-
-    color: rgb(60, 49, 60);
-}
+/* ol, ul {list-style: none;} */
