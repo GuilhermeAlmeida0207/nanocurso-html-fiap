@@ -16,6 +16,12 @@ img {
     /* filter: opacity(70%); */
     /* filter: saturate(50%); */
     /* filter: contrast(120%); */
-    filter: drop-shadow(0px 10px 20px rgb(0, 0, 0));
+    filter: drop-shadow(0px 10px 10px rgb(0, 0, 0));
     /* filter: grayscale(50%); */
+}
+
+p {
+    font-size: 16px;
+    color: rgb(11, 20, 94);
+    font-weight: 500;
 }
