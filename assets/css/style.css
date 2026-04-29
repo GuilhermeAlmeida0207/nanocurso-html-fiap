@@ -4,16 +4,17 @@ body {
 }
 
 div {
-    width: 300px;
-    height: 250px;
-    background-color: rgba(73, 65, 221, 0.659);
-    margin: 20px 60px;
-    /* border-width: ;
-    border-style: ;
-    border-color: ; */
-    border: 5px solid darkblue;
-    /* De acordo com a respectiva ordem, podemos organizar a borda só com o comando "border" */
-    padding: 30px;
-     box-sizing: border-box; /*faz o controle de tamanho que remove as alterações no w e h do padding */
-    box-shadow: 1px 1px 20px 5px rgb(83, 18, 213);
+    width: 500;
+    height: 500px;  
+    margin:20px auto; 
+    background-image: url(../images/pexels-stywo-1668246.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    background-color: aqua;
 }
