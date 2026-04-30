@@ -1,50 +1,29 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
     font-family: "Montserrat", sans-serif;
-    
 }
 
 div {
-    width: 900px;
-    height: 500px;
+    width: 90%;
+    height: 80px;
     margin: 10px auto;
-    padding: 30px 0;
+    padding: 10px;
     box-sizing: border-box;
-    background-image:linear-gradient(rgba(0,0,0, .6),rgba(0, 0, 0, .3)),
-    url(../images/pexels-dkomov-34804000\ \(1\).jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 7px;
+    border: 1px solid rgb(156, 33, 156);
+    border-radius: 30px;
+    text-align: center;
+    
 }
 
-div h2 {
-    font-size: 45px;
-    margin: 50px 30px;
+ /* com id */
+#conteudo {
+    background-color:rgb(156, 33, 156) ;
     color: white;
+    text-align: center;
 }
 
-div p {
-    margin: 30px 30px 60px;
-    width: 40%;
-    font-size: 18px;
-    color: white;
-    font-weight: 700;
-}
-
-div a {
-    margin: 30px;
-    text-decoration: none;
-    border: 2px solid rgb(142, 6, 176);
-    background-color: rgb(142, 6, 176);
-    color: white;
-    padding: 8px 30px;
-    border-radius: 7px;
-    font-weight: 600;
-}
-
-div a:hover {
-    background-color: transparent;
-    color: rgb(213, 100, 241);
-    font-weight: 800;
-    box-shadow: 0px 10px 50px rgb(142, 6, 176);
-}
+.bg-blue {background-color: blue;}
+.bg-violet {background-color: violet;}
+.bg-gray {background-color: gray;}
