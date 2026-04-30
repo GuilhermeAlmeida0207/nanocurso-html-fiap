@@ -1,29 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border;
+    box-sizing: border-box;
+}
+
+body {
     font-family: "Montserrat", sans-serif;
 }
 
-div {
-    width: 90%;
-    height: 80px;
-    margin: 10px auto;
+.box {
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid violet;
     padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid rgb(156, 33, 156);
-    border-radius: 30px;
-    text-align: center;
-    
+    margin: 10px auto;
+
 }
 
- /* com id */
-#conteudo {
-    background-color:rgb(156, 33, 156) ;
+.box:nth-child(even) {
+    background-color: purple;
     color: white;
-    text-align: center;
 }
 
-.bg-blue {background-color: blue;}
-.bg-violet {background-color: violet;}
-.bg-gray {background-color: gray;}
+.box:nth-child(odd) {
+    background-color: rgb(92, 60, 190);
+    color: white;
+}
